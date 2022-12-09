@@ -1,0 +1,31 @@
+#define WIFI_SSID1     "YOUR WIFI SSID1"
+#define WIFI_PASSWORD1 "YOUR WIFI PASSWORD"
+
+#define WIFI_SSID2     "YOUR WIFI SSID2"
+#define WIFI_PASSWORD2 "YOUR WIFI PASSWORD2"
+
+#define WIFI_SSID3     "YOUR WIFI SSID3"
+#define WIFI_PASSWORD3 "YOUR WIFI PASSWORD3"
+
+// if you don't predefine MQTT broker information
+// then  the system will use Homebus to provision itself
+
+#define MQTT_HOST "MQTT_BROKER_NAME_OR_IP"
+#define MQTT_PORT 1883
+
+#define MQTT_USER "MQTT_BROKER_USERNAME"
+#define MQTT_PASS "MQTT_BROKER_PASSWORD"
+#define MQTT_UUID "UUID_FOR_THIS_CLIENT"
+
+// publish updates this many milliseconds
+#define UPDATE_DELAY 60*1000
+
+// define this if you want more serial debugging messages
+#define VERBOSE
+
+// set up the display
+// milliseconds to stay on each screen
+#define DISPLAY_SCREEN_INTERVAL 1000
+// these values are from display.h
+#define DISPLAY_SCREENS { DISPLAY_SCREEN_TIME, DISPLAY_SCREEN_TEMPERATURE, DISPLAY_SCREEN_PM2_5, DISPLAY_SCREEN_IP, DISPLAY_SCREEN_POOP }
+#define DISPLAY_SCREEN_MESSAGE_TEXT "Hello World"

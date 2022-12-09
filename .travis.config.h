@@ -1,0 +1,19 @@
+#pragma once
+
+#define WIFI_SSID1     "wifi name 1"
+#define WIFI_PASSWORD1 "wifi password 1"
+
+#define WIFI_SSID2     "wifi name 2"
+#define WIFI_PASSWORD2 "wifi password 2"
+
+#define WIFI_SSID3     "wifi name 3"
+#define WIFI_PASSWORD3 "wifi password 3"
+
+#define GMT_OFFSET_SECS  -8 * 60 * 60
+#define DAYLIGHT_SAVINGS_OFFSET_SECS 3600
+
+#define UPDATE_DELAY 60*1000
+
+#define DISPLAY_SCREEN_INTERVAL 1000
+#define DISPLAY_SCREENS { DISPLAY_SCREEN_ALL_AIR, DISPLAY_SCREEN_ALL_AIR_F, DISPLAY_SCREEN_ALL_LIGHT, DISPLAY_SCREEN_ALL_PARTICLE, DISPLAY_SCREEN_ALL_OFF }
+#define DISPLAY_SCREEN_MESSAGE_TEXT "Hello world"
